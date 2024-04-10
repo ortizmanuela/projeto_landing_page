@@ -1,0 +1,57 @@
+#footer_items {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 8% 24px 8%;
+    align-items: center;
+}
+
+#copyright {
+    color: var(--color-neutral-1);;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 600px) {
+    #footer_items {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+footer{
+    background-color: #f8d477;
+    padding: 20px;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 5vh;
+}
+
+.topico{
+    list-style: none;
+    color: black;
+    text-decoration: none;
+    padding: 3%;
+}
+
+.navegaçao{
+    font-weight: bold;
+}
+
+.contato{
+    font-weight: bold;
+}
+.redes{
+    font-weight: bold;
+}
+
+.email{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+    margin-top: 1vw;
+}
+.enviar{
+    background-color: black;
+    border: none;
+    color: white; 
+}
